@@ -1,0 +1,6 @@
+---
+description: Fixture rule. Should be skipped as unsupported.
+alwaysApply: true
+---
+
+Always answer in English.

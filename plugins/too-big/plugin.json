@@ -1,0 +1,5 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "too-big",
+  "description": "Contains more than 500 files. Expected: install fails on the size limit."
+}

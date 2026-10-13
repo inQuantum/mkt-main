@@ -1,0 +1,5 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "filler-11",
+  "description": "Filler plugin 11 about photography, for infinite scroll and search."
+}

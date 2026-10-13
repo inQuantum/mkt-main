@@ -1,0 +1,5 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "mixed-unsupported",
+  "description": "Skills and MCP plus hooks, rules, agents and commands. Expected: plugin-level banner, unsupported parts skipped."
+}

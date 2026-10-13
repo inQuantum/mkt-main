@@ -1,0 +1,5 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "filler-12",
+  "description": "Filler plugin 12 about chess, for infinite scroll and search."
+}

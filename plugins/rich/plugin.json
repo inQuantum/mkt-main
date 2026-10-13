@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "rich",
+  "version": "1.0.0",
+  "author": { "name": "Sergei A.", "email": "abmanzin@seznam.cz", "url": "https://github.com/inQuantum" },
+  "license": "MIT",
+  "homepage": "https://github.com/inQuantum/mkt-main/tree/main/plugins/rich",
+  "repository": "https://github.com/inQuantum/mkt-main",
+  "keywords": ["fixture", "rich", "metadata"],
+  "description": "Fully described plugin with README, license, author and repository link."
+}

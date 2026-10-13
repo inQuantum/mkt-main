@@ -1,0 +1,5 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "filler-09",
+  "description": "Filler plugin 9 about books, for infinite scroll and search."
+}

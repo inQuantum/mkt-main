@@ -1,0 +1,5 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "filler-15",
+  "description": "Filler plugin 15 about language-learning, for infinite scroll and search."
+}

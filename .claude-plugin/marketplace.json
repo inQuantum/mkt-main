@@ -1,0 +1,212 @@
+{
+  "name": "mkt-main",
+  "plugins": [
+    {
+      "name": "skills-only",
+      "source": "./plugins/skills-only",
+      "description": "Two skills, one with a very long description, to test truncation and expand."
+    },
+    {
+      "name": "mcp-open",
+      "source": "./plugins/mcp-open",
+      "description": "One MCP server with no auth fields (DeepWiki). Expected: No connection needed."
+    },
+    {
+      "name": "mcp-auth",
+      "source": "./plugins/mcp-auth",
+      "description": "One MCP server with auth fields (Stripe). Expected: Requires a connection."
+    },
+    {
+      "name": "mixed-unsupported",
+      "source": "./plugins/mixed-unsupported",
+      "description": "Skills and MCP plus hooks, rules, agents and commands. Expected: plugin-level banner, unsupported parts skipped."
+    },
+    {
+      "name": "bare",
+      "source": "./plugins/bare"
+    },
+    {
+      "name": "rich",
+      "source": "./plugins/rich",
+      "description": "Fully described plugin with README, license, author and repository link.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Sergei A.",
+        "email": "abmanzin@seznam.cz",
+        "url": "https://github.com/inQuantum"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/inQuantum/mkt-main/tree/main/plugins/rich",
+      "repository": "https://github.com/inQuantum/mkt-main",
+      "keywords": [
+        "fixture",
+        "rich",
+        "metadata"
+      ]
+    },
+    {
+      "name": "to-vanish",
+      "source": "./plugins/to-vanish",
+      "description": "Will be removed from the source after install."
+    },
+    {
+      "name": "evolving",
+      "source": "./plugins/evolving",
+      "description": "Gets a 2nd and 3rd version (v1).",
+      "version": "1.0.0"
+    },
+    {
+      "name": "not-installable",
+      "source": {
+        "source": "npm",
+        "package": "@inquantum/mkt-main-not-installable"
+      },
+      "description": "Source is an npm package. Expected: Not available."
+    },
+    {
+      "name": "broken-structure",
+      "source": "./plugins/broken-structure",
+      "description": "Folder with no plugin.json. Expected: install fails."
+    },
+    {
+      "name": "too-big",
+      "source": "./plugins/too-big",
+      "description": "Contains more than 500 files. Expected: install fails on the size limit."
+    },
+    {
+      "name": "filler-01",
+      "source": "./plugins/filler-01",
+      "description": "Filler plugin 1 about , for infinite scroll and search."
+    },
+    {
+      "name": "filler-02",
+      "source": "./plugins/filler-02",
+      "description": "Filler plugin 2 about weather, for infinite scroll and search."
+    },
+    {
+      "name": "filler-03",
+      "source": "./plugins/filler-03",
+      "description": "Filler plugin 3 about finance, for infinite scroll and search."
+    },
+    {
+      "name": "filler-04",
+      "source": "./plugins/filler-04",
+      "description": "Filler plugin 4 about travel, for infinite scroll and search."
+    },
+    {
+      "name": "filler-05",
+      "source": "./plugins/filler-05",
+      "description": "Filler plugin 5 about cooking, for infinite scroll and search."
+    },
+    {
+      "name": "filler-06",
+      "source": "./plugins/filler-06",
+      "description": "Filler plugin 6 about fitness, for infinite scroll and search."
+    },
+    {
+      "name": "filler-07",
+      "source": "./plugins/filler-07",
+      "description": "Filler plugin 7 about music, for infinite scroll and search."
+    },
+    {
+      "name": "filler-08",
+      "source": "./plugins/filler-08",
+      "description": "Filler plugin 8 about movies, for infinite scroll and search."
+    },
+    {
+      "name": "filler-09",
+      "source": "./plugins/filler-09",
+      "description": "Filler plugin 9 about books, for infinite scroll and search."
+    },
+    {
+      "name": "filler-10",
+      "source": "./plugins/filler-10",
+      "description": "Filler plugin 10 about gardening, for infinite scroll and search."
+    },
+    {
+      "name": "filler-11",
+      "source": "./plugins/filler-11",
+      "description": "Filler plugin 11 about photography, for infinite scroll and search."
+    },
+    {
+      "name": "filler-12",
+      "source": "./plugins/filler-12",
+      "description": "Filler plugin 12 about chess, for infinite scroll and search."
+    },
+    {
+      "name": "filler-13",
+      "source": "./plugins/filler-13",
+      "description": "Filler plugin 13 about astronomy, for infinite scroll and search."
+    },
+    {
+      "name": "filler-14",
+      "source": "./plugins/filler-14",
+      "description": "Filler plugin 14 about history, for infinite scroll and search."
+    },
+    {
+      "name": "filler-15",
+      "source": "./plugins/filler-15",
+      "description": "Filler plugin 15 about language-learning, for infinite scroll and search."
+    },
+    {
+      "name": "filler-16",
+      "source": "./plugins/filler-16",
+      "description": "Filler plugin 16 about coding-tips, for infinite scroll and search."
+    },
+    {
+      "name": "filler-17",
+      "source": "./plugins/filler-17",
+      "description": "Filler plugin 17 about pets, for infinite scroll and search."
+    },
+    {
+      "name": "filler-18",
+      "source": "./plugins/filler-18",
+      "description": "Filler plugin 18 about recipes, for infinite scroll and search."
+    },
+    {
+      "name": "filler-19",
+      "source": "./plugins/filler-19",
+      "description": "Filler plugin 19 about hiking, for infinite scroll and search."
+    },
+    {
+      "name": "filler-20",
+      "source": "./plugins/filler-20",
+      "description": "Filler plugin 20 about budgeting, for infinite scroll and search."
+    },
+    {
+      "name": "filler-21",
+      "source": "./plugins/filler-21",
+      "description": "Filler plugin 21 about meditation, for infinite scroll and search."
+    },
+    {
+      "name": "filler-22",
+      "source": "./plugins/filler-22",
+      "description": "Filler plugin 22 about podcasts, for infinite scroll and search."
+    },
+    {
+      "name": "filler-23",
+      "source": "./plugins/filler-23",
+      "description": "Filler plugin 23 about trivia, for infinite scroll and search."
+    },
+    {
+      "name": "filler-24",
+      "source": "./plugins/filler-24",
+      "description": "Filler plugin 24 about geography, for infinite scroll and search."
+    },
+    {
+      "name": "filler-25",
+      "source": "./plugins/filler-25",
+      "description": "Filler plugin 25 about poetry, for infinite scroll and search."
+    },
+    {
+      "name": "same-name-twice",
+      "source": "./plugins/same-name-twice-a",
+      "description": "Duplicate name, copy a."
+    },
+    {
+      "name": "same-name-twice",
+      "source": "./plugins/same-name-twice-b",
+      "description": "Duplicate name, copy b."
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "filler-23",
+  "description": "Filler plugin 23 about trivia, for infinite scroll and search."
+}
