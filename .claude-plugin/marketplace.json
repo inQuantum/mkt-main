@@ -45,15 +45,10 @@
       ]
     },
     {
-      "name": "to-vanish",
-      "source": "./plugins/to-vanish",
-      "description": "Will be removed from the source after install."
-    },
-    {
       "name": "evolving",
       "source": "./plugins/evolving",
-      "description": "Gets a 2nd and 3rd version (v1).",
-      "version": "1.0.0"
+      "description": "Gets a 2nd and 3rd version (v2).",
+      "version": "2.0.0"
     },
     {
       "name": "not-installable",
